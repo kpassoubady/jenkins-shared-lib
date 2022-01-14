@@ -5,5 +5,6 @@ String call() {
 @NonCPS
 String currentBuildUser() {
     userId = currentBuild.rawBuild.getCause(Cause.UserIdCause).userId ?: 'timer'
+    echo userId
     return userId
 }
