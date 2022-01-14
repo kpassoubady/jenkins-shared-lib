@@ -1,0 +1,1 @@
+prints to console <b>Mainterners of this project: maintainers</b> if and only if not empty or null or of type string
