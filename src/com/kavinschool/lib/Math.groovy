@@ -5,11 +5,11 @@ package com.kavinschool.lib
  */
 class Math {
 
-    static int square(int x) {
+    static int square(Integer x) {
         return x * x
     }
 
-    static int cube(int x) {
+    static int cube(Integer x) {
         return x * x * x
     }
 
