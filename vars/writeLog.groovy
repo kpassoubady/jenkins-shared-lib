@@ -1,6 +1,5 @@
 #!/usr/bin/env groovy
 
-def call(String msg) {
+void call(String msg) {
     echo "${msg}"
 }
-

@@ -1,0 +1,1 @@
+return timer when the build user is null otherwise returns the current build user who kick started the job

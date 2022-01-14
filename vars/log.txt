@@ -1,0 +1,7 @@
+info(message) will be printed as <b>INFO: message</b>
+
+warning(message) will be printed as <b>WARNING: message</b>
+
+error(message) will be printed as <b>ERROR: message</b>
+
+debug(message) will be printed as <b>DEBUG: message</b>
