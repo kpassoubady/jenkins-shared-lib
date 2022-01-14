@@ -1,7 +1,7 @@
-info(message) will be printed as <b>INFO: message</b>
+info(message) will be printed as <b>INFO: message</b><br/><br/>
 
-warning(message) will be printed as <b>WARNING: message</b>
+warning(message) will be printed as <b>WARNING: message</b><br/><br/>
 
-error(message) will be printed as <b>ERROR: message</b>
+error(message) will be printed as <b>ERROR: message</b><br/><br/>
 
-debug(message) will be printed as <b>DEBUG: message</b>
+debug(message) will be printed as <b>DEBUG: message</b><br/><br/>
