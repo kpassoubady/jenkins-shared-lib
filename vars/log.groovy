@@ -1,3 +1,5 @@
+#!/usr/bin/env groovy
+
 void info(String message) {
     echo "INFO: ${message}"
 }

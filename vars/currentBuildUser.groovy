@@ -1,3 +1,5 @@
+#!/usr/bin/env groovy
+
 String call() {
     return currentBuildUser()
 }
@@ -6,6 +8,6 @@ String call() {
 String currentBuildUser() {
     userId = currentBuild.rawBuild.getCause(Cause.UserIdCause).userId
     userId = userId == null ? 'timer' : userId
-    echo "userId: ${userId}" 
+    echo "userId: ${userId}"
     return userId
 }
