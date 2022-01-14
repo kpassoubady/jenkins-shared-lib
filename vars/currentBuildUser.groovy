@@ -4,7 +4,8 @@ String call() {
 
 @NonCPS
 String currentBuildUser() {
-    userId = currentBuild.rawBuild.getCause(Cause.UserIdCause).userId ?: 'timer'
-    echo userId
+    userId = currentBuild.rawBuild.getCause(Cause.UserIdCause).userId
+    userId = userId == null ? 'timer' : userId
+    echo "userId: ${userId}" 
     return userId
 }
